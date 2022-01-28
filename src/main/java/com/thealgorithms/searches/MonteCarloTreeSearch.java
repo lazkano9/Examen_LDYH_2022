@@ -1,6 +1,7 @@
 package com.thealgorithms.searches;
 
 import java.util.Collections;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Random;
@@ -140,7 +141,9 @@ public class MonteCarloTreeSearch {
      * @param promisingNode Node that will be simulated.
      */
     public void simulateRandomPlay(Node promisingNode) {
-        Random rand = new Random();
+        
+        SecureRandom rand = new SecureRandom();
+
         Node tempNode = promisingNode;
         boolean isPlayerWinner;
 
