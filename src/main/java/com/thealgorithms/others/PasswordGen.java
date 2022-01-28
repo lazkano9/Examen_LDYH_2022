@@ -19,7 +19,8 @@ class PasswordGen {
     }
 
     static String generatePassword(int min_length, int max_length) {
-        Random random = new Random();
+      
+        SecureRandom random = new SecureRandom();
 
         String upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String lower = "abcdefghijklmnopqrstuvwxyz";

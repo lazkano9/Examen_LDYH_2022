@@ -95,7 +95,7 @@ public class MiniMaxAlgorithm {
      */
     public static int[] getRandomScores(int size, int maxScore) {
         int[] randomScores = new int[(int) Math.pow(2, size)];
-        Random rand = new Random();
+        SecureRandom rand = new SecureRandom();
 
         for (int i = 0; i < randomScores.length; i++) {
             randomScores[i] = rand.nextInt(maxScore) + 1;
