@@ -4,6 +4,7 @@ for better understanding
  */
 package com.thealgorithms.datastructures.graphs;
 import java.util.Random;
+import java.security.SecureRandom;
 
 class dijkstras {
 
@@ -30,7 +31,7 @@ class dijkstras {
     }
 	
     int aleatorySelectionRCL(int maxTRCL) {
-       Random r = new Random();
+    	SecureRandom r = new SecureRandom();
        int low = 0;
        int high = maxTRCL;
        int posSelected = r.nextInt(high-low) + low;
