@@ -30,7 +30,7 @@ class dijkstras {
     }
 	
     int aleatorySelectionRCL(int maxTRCL) {
-    	int rValue = this.rand.nextInt();
+       Random r = new Random();
        int low = 0;
        int high = maxTRCL;
        int posSelected = r.nextInt(high-low) + low;
