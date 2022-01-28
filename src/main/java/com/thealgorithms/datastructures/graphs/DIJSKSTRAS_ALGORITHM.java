@@ -7,9 +7,18 @@ import java.util.Random;
 import java.security.SecureRandom;
 
 class dijkstras {
+	
+	
 
     int k = 9;
-
+    /** @brief minDist, mas informacion.
+     * 
+     * 
+	 * ... text ...
+	 
+     * @param[dist[]]  Distancia
+     * @param[set[]]  array de booleanos
+     */
     int minDist(int dist[], Boolean Set[]) {
         int min = Integer.MAX_VALUE, min_index = -1;
 
