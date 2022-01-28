@@ -2,6 +2,8 @@ package com.thealgorithms.others;
 
 import java.util.Arrays;
 import java.util.Random;
+import java.security.SecureRandom;
+
 
 /**
  * MiniMax is an algorithm used int artificial intelligence and game theory for
