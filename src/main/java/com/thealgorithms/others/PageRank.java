@@ -61,7 +61,9 @@ class PageRank {
                 for (ExternalNodeNumber = 1; ExternalNodeNumber <= totalNodes; ExternalNodeNumber++) {
                     if (this.path[ExternalNodeNumber][InternalNodeNumber] == 1) {
                         k = 1;
+                        if (OutgoingLinks != 0) {
                         OutgoingLinks = 0; // Count the Number of Outgoing Links for each ExternalNodeNumber
+                        }
                         while (k <= totalNodes) {
                             if (this.path[ExternalNodeNumber][k] == 1) {
                                 OutgoingLinks = OutgoingLinks + 1; // Counter for Outgoing Links
