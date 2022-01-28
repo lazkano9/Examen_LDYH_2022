@@ -22,19 +22,19 @@ class dijskstrasTest {
 	
 	@DisplayName("Primer test")
 	@Test
-	void test() {
+	void test1() {
 		assertEquals(3,j);
 	}
 	
 	@DisplayName("Segundo test")
 	@Test
-	void test() {
+	void test2() {
 		assertTrue(i);
 	}
 	
 	@DisplayName("Tercer test")
 	@Test
-	void test() {
+	void test3() {
 		assertEquals(5,x);
 	}
 
