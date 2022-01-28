@@ -1,0 +1,13 @@
+<map id="com.thealgorithms.devutils.searches.SearchAlgorithm" name="com.thealgorithms.devutils.searches.SearchAlgorithm">
+<area shape="rect" id="node1" title=" " alt="" coords="5,300,243,341"/>
+<area shape="rect" id="node2" title=" " alt="" coords="291,5,481,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="291,71,481,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1thealgorithms_1_1searches_1_1_fibonacci_search.html" title=" " alt="" coords="291,136,481,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1thealgorithms_1_1searches_1_1_iterative_binary_search.html" title=" " alt="" coords="291,201,481,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1thealgorithms_1_1searches_1_1_iterative_ternary_search.html" title=" " alt="" coords="291,267,481,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1thealgorithms_1_1searches_1_1_jump_search.html" title=" " alt="" coords="291,332,481,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1thealgorithms_1_1searches_1_1_linear_search.html" title=" " alt="" coords="291,397,481,439"/>
+<area shape="rect" id="node9" title=" " alt="" coords="291,463,481,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1thealgorithms_1_1searches_1_1_ternary_search.html" title=" " alt="" coords="291,528,481,569"/>
+<area shape="rect" id="node11" title=" " alt="" coords="291,593,481,635"/>
+</map>

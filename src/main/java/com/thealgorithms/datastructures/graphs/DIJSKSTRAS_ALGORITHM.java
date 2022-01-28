@@ -18,6 +18,8 @@ class dijkstras {
 	 
      * @param[dist[]]  Distancia
      * @param[set[]]  array de booleanos
+     * 
+     * @author Julen Lazkano Iturrioz
      */
     int minDist(int dist[], Boolean Set[]) {
         int min = Integer.MAX_VALUE, min_index = -1;

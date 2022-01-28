@@ -1,0 +1,4 @@
+<map id="com.thealgorithms.misc.ColorContrastRatio.getRelativeLuminance" name="com.thealgorithms.misc.ColorContrastRatio.getRelativeLuminance">
+<area shape="rect" id="node1" title="Calculates the relative luminance of a given color." alt="" coords="5,5,236,47"/>
+<area shape="rect" id="node2" href="$classcom_1_1thealgorithms_1_1misc_1_1_color_contrast_ratio.html#ac5ccb729b2ed38e19e3e89ddf9435dd6" title="Calculates the final value for a color to be used in the relative luminance formula as described in s..." alt="" coords="284,5,479,47"/>
+</map>
